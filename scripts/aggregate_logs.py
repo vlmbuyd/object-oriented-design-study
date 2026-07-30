@@ -56,7 +56,7 @@ def aggregate(events):
             tag_counter[t] += 1
     scores = [e["score"] for e in events if isinstance(e.get("score"), (int, float))]
     # 장별 마지막 단계(진도 감각)
-    stage_order = {"pre": 0, "jot": 1, "recap": 2, "dojo": 3, "drill": 4, "log": 5}
+    stage_order = {"pre": 0, "jot": 1, "ask": 2, "confirm": 3, "dojo": 4, "drill": 5, "wrap": 6}
     furthest = {}
     for e in events:
         ch, ty = e.get("chapter"), e.get("type")

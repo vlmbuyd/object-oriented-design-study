@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 EVENTS = ROOT / "logs" / "events.jsonl"
 
-KNOWN_TYPES = ["pre", "jot", "recap", "dojo", "drill", "log", "retro"]
+KNOWN_TYPES = ["pre", "jot", "ask", "confirm", "dojo", "drill", "wrap", "retro"]
 
 
 def append_event(**fields):
