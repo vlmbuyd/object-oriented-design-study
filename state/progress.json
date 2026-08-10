@@ -1,8 +1,26 @@
 {
   "book": "오브젝트 (조영호)",
-  "current_chapter": null,
-  "last_session_date": null,
-  "chapters": {},
-  "open_questions": [],
-  "updated_at": null
+  "current_chapter": "02",
+  "last_session_date": "2026-08-02",
+  "chapters": {
+    "01": {
+      "title": "객체, 설계",
+      "status": "wrapped",
+      "wrapped_at": "2026-08-02",
+      "note": "notes/01-객체-설계.md",
+      "dojo": "dojo/01-객체-설계",
+      "confirm_score": 0.5
+    },
+    "02": {
+      "title": "객체지향 프로그래밍",
+      "status": "reading"
+    }
+  },
+  "open_questions": [
+    "01 — 한 문장 요약 미작성",
+    "01 — 결론 문장의 '결합도'를 두 층(존재/구현) 중 어느 쪽으로 한정할지 미결",
+    "01 — dojo/01-객체-설계/after 의 useAudience/useTicketOffice 사이에 p.33 딜레마가 재현되는지 미확인",
+    "01 — 응집도 축을 정리에 넣지 못함 (p.24~26)"
+  ],
+  "updated_at": "2026-08-04"
 }
